@@ -1,0 +1,137 @@
+/* Reset default margin and padding for the page */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #beeebc; /* Light gray background */
+}
+
+/* Header styling */
+header {
+    background-color: #00A652;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 28px; /* Larger font size */
+    border-bottom: 4px solid #00A652; /* Green accent border */
+}
+
+/* Main content container */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+/* Dashboard styling */
+#dashboard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff; /* Green background */
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 16px;
+    
+}
+#map-container:hover {
+    background-color: #00A652;
+    border-radius: 5px;
+}
+
+/* Logo and Image Container */
+#logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00A652; /* White text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow for a magical effect */
+}
+
+#image-container {
+    display: flex;
+    align-items: center; /* Vertically align items in the container */
+}
+
+#image-container img {
+    size-adjust: auto;
+    width: 30px; /* Set the desired width for the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add some space between the logo and image */
+    filter: grayscale(50%); /* Make the image slightly grayscale for a metallic look */
+}
+
+#user-actions button {
+    margin-left: 10px;
+    background-color: #6ae266;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+#user-actions button:hover {
+    background-color: #13a323;
+    border-radius: 5px;
+}
+
+/* Map container styling */
+#map-container {
+    background-color: #6ae266; /* Green background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    height: 400px; /* Set the desired height */
+    margin-bottom: 14px;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+/* Locations container styling */
+#locations {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+/* Locations lists styling */
+#ewaste-list-container,
+#recycling-list-container {
+    flex: 1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #00A652; /* Green heading color */
+    margin-bottom: 10px; /* Add spacing below headings */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+li:hover {
+    background-color: #13a323;
+    border-radius: 5px;
+}
